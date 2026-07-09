@@ -1,0 +1,8 @@
+let nomes = ["ana",'bruno','carla']
+
+console.log(nomes)
+
+nomes.forEach(function(item, indice) {
+  console.log(`${indice}: ${item}`);
+}); 
+
